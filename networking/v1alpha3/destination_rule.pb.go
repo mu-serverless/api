@@ -185,6 +185,7 @@ const (
 	// advanced use cases. Refer to Original Destination load balancer in
 	// Envoy for further details.
 	LoadBalancerSettings_PASSTHROUGH LoadBalancerSettings_SimpleLB = 3
+	LoadBalancerSettings_PREDICTIVE_LEAST_CONN LoadBalancerSettings_SimpleLB = 4
 )
 
 var LoadBalancerSettings_SimpleLB_name = map[int32]string{
@@ -192,6 +193,7 @@ var LoadBalancerSettings_SimpleLB_name = map[int32]string{
 	1: "LEAST_CONN",
 	2: "RANDOM",
 	3: "PASSTHROUGH",
+	4: "PREDICTIVE_LEAST_CONN",
 }
 
 var LoadBalancerSettings_SimpleLB_value = map[string]int32{
@@ -199,6 +201,7 @@ var LoadBalancerSettings_SimpleLB_value = map[string]int32{
 	"LEAST_CONN":  1,
 	"RANDOM":      2,
 	"PASSTHROUGH": 3,
+	"PREDICTIVE_LEAST_CONN": 4,
 }
 
 func (x LoadBalancerSettings_SimpleLB) String() string {
