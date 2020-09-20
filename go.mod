@@ -1,4 +1,4 @@
-module istio.io/api
+module mu-serverless/api
 
 go 1.12
 
