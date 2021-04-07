@@ -459,6 +459,10 @@ message LoadBalancerSettings {
     // advanced use cases. Refer to Original Destination load balancer in
     // Envoy for further details.
     PASSTHROUGH = 3;
+
+    // GWU LB algo
+    PREDICTIVE_LEAST_CONN = 4; 
+
   };
 
   // Consistent Hash-based load balancing can be used to provide soft

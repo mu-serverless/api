@@ -297,6 +297,7 @@
           "LEAST_CONN",
           "RANDOM",
           "PASSTHROUGH"
+          "PREDICTIVE_LEAST_CONN"
         ]
       },
       "istio.networking.v1beta1.LoadBalancerSettings.ConsistentHashLB": {

@@ -38662,6 +38662,10 @@
               {
                 "name": "PASSTHROUGH",
                 "integer": 3
+              },
+              {
+                "name": "PREDICTIVE_LEAST_CONN",
+                "integer": 4
               }
             ]
           },
@@ -41106,6 +41110,10 @@
               {
                 "name": "PASSTHROUGH",
                 "integer": 3
+              },
+              {
+                "name": "PREDICTIVE_LEAST_CONN",
+                "integer": 4
               }
             ]
           },
